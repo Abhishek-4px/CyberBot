@@ -92,16 +92,16 @@ Once the application is running, open your web browser and navigate to `http://l
 
 ---
 
-## Results
+## Results / Screenshots
 
 Here's a look at CyberBot in action.
 
-![CyberBot educational response](inf2.png)
+<img src="inf2.png" alt="CyberBot educational response" width="400">
 *Caption: A screenshot showing an educational response.*
 
 ---
 
-![CyberBot blocking a malicious query](inf4.png)
+<img src="inf4.png" alt="CyberBot blocking a malicious query" width="400">
 *Caption: A screenshot showing a malicious query being blocked.*
 
 ## Configuration & Customization
