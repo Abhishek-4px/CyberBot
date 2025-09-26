@@ -92,19 +92,17 @@ Once the application is running, open your web browser and navigate to `http://l
 
 ---
 
-## Results / Screenshots
+## Results
 
 Here's a look at CyberBot in action.
 
-![CyberBot educational response](assets/screenshots/result-1.png)
-*CyberBot providing a safe, educational answer with source citations.*
+![CyberBot educational response](inf2.png)
+*Caption: A screenshot showing an educational response.*
 
 ---
 
-![CyberBot blocking a malicious query](assets/screenshots/result-2.png)
-*CyberBot identifying and blocking a harmful request based on its ethical policy.*
-
----
+![CyberBot blocking a malicious query](inf4.png)
+*Caption: A screenshot showing a malicious query being blocked.*
 
 ## Configuration & Customization
 
