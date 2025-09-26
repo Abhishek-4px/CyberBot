@@ -129,6 +129,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [abhishekkumarshukla.official@gmail.com](mailto:abhishekkumarshukla.official@gmail.com)
+Mail - [abhishekkumarshukla.official@gmail.com](mailto:abhishekkumarshukla.official@gmail.com)
 
 Project Link: [https://github.com/Abhishek-4px/CyberBot](https://github.com/Abhishek-4px/CyberBot)
