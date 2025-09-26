@@ -16,7 +16,7 @@ Original file is located at
 
 import os
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"         # Had to enter in this was as there was some issue in inserting API via colab
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Your HF access Token"         # Had to enter in this was as there was some issue in inserting API via colab
 print("Token from env:", os.getenv("HUGGINGFACEHUB_API_TOKEN"))
 
 """<h3> Adding the Docs from Optiv.com </h3>"""
