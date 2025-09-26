@@ -17,7 +17,6 @@ An intelligent, RAG-powered chatbot designed to provide safe, educational cybers
 -   [Usage](#usage)
 -   [Results / Screenshots](#results--screenshots)
 -   [Configuration & Customization](#configuration--customization)
--   [Contributing](#contributing)
 -   [License](#license)
 -   [Contact](#contact)
 
@@ -110,14 +109,6 @@ You can easily customize CyberBot's knowledge and behavior:
 
 -   **Expand the Knowledge Base**: Add new cybersecurity documents (in markdown or text format) to the designated `data` or `docs` folder. The RAG pipeline will automatically index them on the next run.
 -   **Adjust Content Filtering**: Modify the `blocked_keywords` list within the application's code to fine-tune the bot's content safety policy.
-
----
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-Please read the `CONTRIBUTING.md` file for details on our code of conduct and the process for submitting pull requests.
 
 ---
 
