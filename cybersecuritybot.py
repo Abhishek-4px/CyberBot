@@ -515,7 +515,7 @@ Source: Chatbot Core Directives
 # I have also added few warnings for illegal questions as I felt I should add them ... Also th below code converts it into langchain doc objects
 from langchain.schema import Document
 documents = [Document(page_content=content, metadata={"source": title}) for title, content in cyber_docs.items()]
-print(f"Loaded {len(documents)} documents for CYCREW Chatbot")
+print(f"Loaded {len(documents)} documents for Cybersecurity Chatbot")
 
 """<h3> Adding chunks and overlaps for memory </h3>"""
 
@@ -549,7 +549,7 @@ vectorstore = {
     "embeddings": embeddings,
 }
 
-print("Vector store of CYCREW Bot Ready")
+print("Vector store of Cybersecurity Chatbot Bot Ready")
 
 def retrieve(query, k=4):
     query_embedding = embedder.encode([query], convert_to_numpy=True)
@@ -563,11 +563,11 @@ for r in results:
     for r in results:
       print(f"Source: {r.metadata['source']}\n{r.page_content}\n\n-------------\n")
 
-print("All rights reserved by CYCREW")
+print("All rights reserved by CyberSecurity Chatbot")
 
 from transformers import pipeline
 qa_pipeline = pipeline("text2text-generation", model="google/flan-t5-small", max_length=256, temperature=0.3)
-print("CYCREW Special chatbot pipeline ready.")
+print("CyberSecurity Chatbot Special chatbot pipeline ready.")
 
 def ask_question(question):
     # Sensors for illegal hacks
